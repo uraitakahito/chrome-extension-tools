@@ -1,5 +1,18 @@
 # @crxjs/vite-plugin
 
+## 2.0.0-beta.30
+
+### Patch Changes
+
+- 136c34f: removing unnecessary v8 dependency
+- ee860e7: fix background.type manifest property typescript type
+
+## 2.0.0-beta.29
+
+### Patch Changes
+
+- 459a38e: fix: cjs require file
+
 ## 2.0.0-beta.28
 
 ### Patch Changes

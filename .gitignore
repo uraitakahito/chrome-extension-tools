@@ -2,7 +2,6 @@
 **/tests/**/.vite
 **/tests/**/dist*
 **/tests/artifacts
-.vscode
 **/chromium-data-dir-*
 **/tests/e2e/mv3-*-hmr/src
 **/__diff_output__

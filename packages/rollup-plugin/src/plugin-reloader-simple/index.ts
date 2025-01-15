@@ -1,3 +1,6 @@
+// "from 'code ./client/background.ts'" is processed by one of rollup's plugins, `rollup-plugin-bundle-imports`.
+// The relevant code is here:
+//   https://github.com/jacksteamdev/rollup-plugin-bundle-imports/blob/2e2f6aa3091c6fb4dadf483dd42467416701d3a0/src/index.ts#L132-L142
 import { code as bgClientCode } from 'code ./client/background.ts'
 import { code as ctClientCode } from 'code ./client/content.ts'
 import { outputJson } from 'fs-extra'
